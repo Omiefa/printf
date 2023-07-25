@@ -2,7 +2,7 @@
 
 /**
  * _printf - function that search for the correct function to print
- * @format: identifier to look for
+ * @format: format identifier or specifier to look for
  * Return: Return the length of the string
  *
  */

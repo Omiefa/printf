@@ -1,6 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+/*Standard C Library Header Files*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdarg.h>
@@ -16,6 +17,7 @@ struct convert
 };
 typedef struct convert custom_conver_t;
 
+/*Custom Function Prototype*/
 int _putchar(char c);
 int _printf(const char *format, ...);
 void _vprintf(const char *format, va_list args);
