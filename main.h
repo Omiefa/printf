@@ -9,11 +9,15 @@
 #include <unistd.h>
 
 
-
+/**
+ * struct convert- user defined data type
+ * @id: character string
+ * @f: function pointer
+ */
 struct convert
 {
-        char *id;
-        int (*f)(va_list);
+	char *id;
+	int (*f)(va_list);
 };
 typedef struct convert custom_conver_t;
 
